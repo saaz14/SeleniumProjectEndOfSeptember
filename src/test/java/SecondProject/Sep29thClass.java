@@ -26,8 +26,8 @@ public class Sep29thClass {
 //		
 //		chrome = new ChromeDriver();
 		
-		Driver.getDriver().get("http://practice.automationtesting.in/");
-		Driver.getDriver().manage().window().maximize();
+//		Driver.getDriver().get("http://practice.automationtesting.in/");
+//		Driver.getDriver().manage().window().maximize();
 		
 		
 		
@@ -40,8 +40,9 @@ public class Sep29thClass {
 		Driver.getDriver().findElement(By.xpath("//*[@id=\"customer_login\"]/div[1]/form/p[3]/input[3]")).click();
 		Driver.getDriver().manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
 		
-		
+		System.out.println("===================================================================================\n\n");
 		System.out.println(Driver.getDriver().findElement(By.xpath("//*[@id=\"page-36\"]/div/div[1]/nav/ul/li[1]/a")).isDisplayed());
+		System.out.println("\n\n===================================================================================");
 		
 		Driver.getDriver().close();
 		
