@@ -1,12 +1,17 @@
 package Practice1;
 
+import org.junit.Test;
+
+import test.utilities.ConfigurationReader;
 import test.utilities.Driver;
 
 public class extention extends Methods {
 	
-	public static void main(String[] args) throws InterruptedException {
+	@Test
+	public void Test1() throws InterruptedException {
 		
-		Driver.getDriver().get("http://demo.automationtesting.in/");
+		
+		Driver.getDriver().get(ConfigurationReader.getProperty("url1"));
 		
 		sgnin();
 		slctlogo();
