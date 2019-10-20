@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Practice1.extentionTest">
+      <class name="Testng.myFirstTestNGSuits">
         <methods>
-          <include name="mainTest"/>
+          <include name="testSum"/>
+          <include name="beforeEachTest"/>
+          <include name="initCalculator"/>
         </methods>
-      </class> <!-- Practice1.extentionTest -->
+      </class> <!-- Testng.myFirstTestNGSuits -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
