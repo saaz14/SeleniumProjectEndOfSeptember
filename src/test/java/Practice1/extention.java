@@ -14,7 +14,7 @@ public class extention extends Methods {
 		Driver.getDriver().get(ConfigurationReader.getProperty("url1"));
 		
 		sgnin();
-		slctlogo();
+	//	slctlogo();
 		BaseInfo();
 		Gender();
 		Hobbies();

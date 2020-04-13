@@ -8,18 +8,48 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">simple_suite</th></tr>
-<tr><td><a href="#t0">calc</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">39,248</td><td></td><td></td></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,601</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">simple_suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">calc &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">Testng.myFirstTestNGSuits</td><td><a href="#m0">testDivison</a></td><td rowspan="1">1571514658298</td><td rowspan="1">15</td></tr><tr class="passedeven"><td><a href="#m1">testEqual</a></td><td rowspan="1">1571514658320</td><td rowspan="1">7</td></tr><tr class="passedeven"><td><a href="#m2">testMethod</a></td><td rowspan="5">1571514658348</td><td rowspan="5">20</td></tr><tr class="passedeven"><td><a href="#m3">testMethod</a></td></tr><tr class="passedeven"><td><a href="#m4">testMethod</a></td></tr><tr class="passedeven"><td><a href="#m5">testMethod</a></td></tr><tr class="passedeven"><td><a href="#m6">testMethod</a></td></tr><tr class="passedeven"><td><a href="#m7">testSum</a></td><td rowspan="1">1571514658417</td><td rowspan="1">24975</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Testng.myFirstTestNGSuits</td><td><a href="#m0">testSum</a></td><td rowspan="1">1578601651956</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">Testng.myFirstTestNGSuits</td><td><a href="#m1">testDivison</a></td><td rowspan="1">1578601651864</td><td rowspan="1">12</td></tr><tr class="passedeven"><td><a href="#m2">testEqual</a></td><td rowspan="1">1578601651888</td><td rowspan="1">4</td></tr><tr class="passedeven"><td><a href="#m3">testMethod</a></td><td rowspan="5">1578601651936</td><td rowspan="5">4</td></tr><tr class="passedeven"><td><a href="#m4">testMethod</a></td></tr><tr class="passedeven"><td><a href="#m5">testMethod</a></td></tr><tr class="passedeven"><td><a href="#m6">testMethod</a></td></tr><tr class="passedeven"><td><a href="#m7">testMethod</a></td></tr></tbody>
 </table>
-<h2>calc</h2><h3 id="m0">Testng.myFirstTestNGSuits#testDivison</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Testng.myFirstTestNGSuits#testEqual</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Testng.myFirstTestNGSuits#testMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>data two</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">Testng.myFirstTestNGSuits#testMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>data 4</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">Testng.myFirstTestNGSuits#testMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>data three</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">Testng.myFirstTestNGSuits#testMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>data 5</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">Testng.myFirstTestNGSuits#testMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>data one</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">Testng.myFirstTestNGSuits#testSum</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>\w+@\w+\.\w{3}</td><td>[^ ]*$</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">Testng.myFirstTestNGSuits#testSum</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;pattern1&apos; is required by @Test on method testSum but has not been marked @Optional or defined
+in C:\Users\Aqeel\AppData\Local\Temp\testng-eclipse-423660057\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:895)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Testng.myFirstTestNGSuits#testDivison</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Testng.myFirstTestNGSuits#testEqual</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Testng.myFirstTestNGSuits#testMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>data 5</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Testng.myFirstTestNGSuits#testMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>data one</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Testng.myFirstTestNGSuits#testMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>data two</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Testng.myFirstTestNGSuits#testMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>data 4</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Testng.myFirstTestNGSuits#testMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>data three</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

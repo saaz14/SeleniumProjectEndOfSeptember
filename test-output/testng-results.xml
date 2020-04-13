@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-10-19T15:50:44 EDT" name="simple_suite" finished-at="2019-10-19T15:51:23 EDT" duration-ms="39248">
+  <suite started-at="2020-01-09T15:27:10 EST" name="Default suite" finished-at="2020-01-09T15:27:31 EST" duration-ms="21601">
     <groups>
     </groups>
-    <test started-at="2019-10-19T15:50:44 EDT" name="calc" finished-at="2019-10-19T15:51:23 EDT" duration-ms="39248">
+    <test started-at="2020-01-09T15:27:10 EST" name="Default test" finished-at="2020-01-09T15:27:31 EST" duration-ms="21601">
       <class name="Testng.myFirstTestNGSuits">
-        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:Testng.myFirstTestNGSuits@27ae2fd0]" started-at="2019-10-19T15:50:44 EDT" name="beforeEachTest" finished-at="2019-10-19T15:50:58 EDT" duration-ms="14074" status="PASS">
+        <test-method is-config="true" signature="beforeEachTest()[pri:0, instance:Testng.myFirstTestNGSuits@30b7c004]" started-at="2020-01-09T15:27:10 EST" name="beforeEachTest" finished-at="2020-01-09T15:27:31 EST" duration-ms="21457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTest -->
-        <test-method is-config="true" signature="initCalculator()[pri:0, instance:Testng.myFirstTestNGSuits@27ae2fd0]" started-at="2019-10-19T15:50:58 EDT" name="initCalculator" finished-at="2019-10-19T15:50:58 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initCalculator()[pri:0, instance:Testng.myFirstTestNGSuits@30b7c004]" started-at="2020-01-09T15:27:31 EST" name="initCalculator" finished-at="2020-01-09T15:27:31 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initCalculator -->
-        <test-method signature="testDivison()[pri:0, instance:Testng.myFirstTestNGSuits@27ae2fd0]" started-at="2019-10-19T15:50:58 EDT" name="testDivison" finished-at="2019-10-19T15:50:58 EDT" duration-ms="15" status="PASS">
+        <test-method signature="testDivison()[pri:0, instance:Testng.myFirstTestNGSuits@30b7c004]" started-at="2020-01-09T15:27:31 EST" name="testDivison" finished-at="2020-01-09T15:27:31 EST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDivison -->
-        <test-method signature="testEqual()[pri:0, instance:Testng.myFirstTestNGSuits@27ae2fd0]" started-at="2019-10-19T15:50:58 EDT" name="testEqual" finished-at="2019-10-19T15:50:58 EDT" duration-ms="7" status="PASS">
+        <test-method signature="testEqual()[pri:0, instance:Testng.myFirstTestNGSuits@30b7c004]" started-at="2020-01-09T15:27:31 EST" name="testEqual" finished-at="2020-01-09T15:27:31 EST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEqual -->
-        <test-method signature="testMethod(java.lang.String)[pri:0, instance:Testng.myFirstTestNGSuits@27ae2fd0]" started-at="2019-10-19T15:50:58 EDT" name="testMethod" data-provider="data-provider" finished-at="2019-10-19T15:50:58 EDT" duration-ms="2" status="PASS">
+        <test-method signature="testMethod(java.lang.String)[pri:0, instance:Testng.myFirstTestNGSuits@30b7c004]" started-at="2020-01-09T15:27:31 EST" name="testMethod" data-provider="data-provider" finished-at="2020-01-09T15:27:31 EST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod -->
-        <test-method signature="testMethod(java.lang.String)[pri:0, instance:Testng.myFirstTestNGSuits@27ae2fd0]" started-at="2019-10-19T15:50:58 EDT" name="testMethod" data-provider="data-provider" finished-at="2019-10-19T15:50:58 EDT" duration-ms="20" status="PASS">
+        <test-method signature="testMethod(java.lang.String)[pri:0, instance:Testng.myFirstTestNGSuits@30b7c004]" started-at="2020-01-09T15:27:31 EST" name="testMethod" data-provider="data-provider" finished-at="2020-01-09T15:27:31 EST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod -->
-        <test-method signature="testMethod(java.lang.String)[pri:0, instance:Testng.myFirstTestNGSuits@27ae2fd0]" started-at="2019-10-19T15:50:58 EDT" name="testMethod" data-provider="data-provider" finished-at="2019-10-19T15:50:58 EDT" duration-ms="2" status="PASS">
+        <test-method signature="testMethod(java.lang.String)[pri:0, instance:Testng.myFirstTestNGSuits@30b7c004]" started-at="2020-01-09T15:27:31 EST" name="testMethod" data-provider="data-provider" finished-at="2020-01-09T15:27:31 EST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,7 +56,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod -->
-        <test-method signature="testMethod(java.lang.String)[pri:0, instance:Testng.myFirstTestNGSuits@27ae2fd0]" started-at="2019-10-19T15:50:58 EDT" name="testMethod" data-provider="data-provider" finished-at="2019-10-19T15:50:58 EDT" duration-ms="5" status="PASS">
+        <test-method signature="testMethod(java.lang.String)[pri:0, instance:Testng.myFirstTestNGSuits@30b7c004]" started-at="2020-01-09T15:27:31 EST" name="testMethod" data-provider="data-provider" finished-at="2020-01-09T15:27:31 EST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod -->
-        <test-method signature="testMethod(java.lang.String)[pri:0, instance:Testng.myFirstTestNGSuits@27ae2fd0]" started-at="2019-10-19T15:50:58 EDT" name="testMethod" data-provider="data-provider" finished-at="2019-10-19T15:50:58 EDT" duration-ms="6" status="PASS">
+        <test-method signature="testMethod(java.lang.String)[pri:0, instance:Testng.myFirstTestNGSuits@30b7c004]" started-at="2020-01-09T15:27:31 EST" name="testMethod" data-provider="data-provider" finished-at="2020-01-09T15:27:31 EST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,23 +78,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod -->
-        <test-method signature="testSum(java.lang.String, java.lang.String)[pri:0, instance:Testng.myFirstTestNGSuits@27ae2fd0]" started-at="2019-10-19T15:50:58 EDT" name="testSum" finished-at="2019-10-19T15:51:23 EDT" duration-ms="24975" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[\w+@\w+\.\w{3}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[^ ]*$]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="testSum(java.lang.String, java.lang.String)[pri:0, instance:Testng.myFirstTestNGSuits@30b7c004]" started-at="2020-01-09T15:27:31 EST" name="testSum" finished-at="2020-01-09T15:27:31 EST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'pattern1' is required by @Test on method testSum but has not been marked @Optional or defined
+in C:\Users\Aqeel\AppData\Local\Temp\testng-eclipse-423660057\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'pattern1' is required by @Test on method testSum but has not been marked @Optional or defined
+in C:\Users\Aqeel\AppData\Local\Temp\testng-eclipse-423660057\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:289)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:895)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSum -->
       </class> <!-- Testng.myFirstTestNGSuits -->
-    </test> <!-- calc -->
-  </suite> <!-- simple_suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
